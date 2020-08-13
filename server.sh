@@ -1,0 +1,1 @@
+docker run ml-prod-server /bin/bash -c 'python server.py'
