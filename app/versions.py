@@ -13,7 +13,9 @@ versions = {
     'model_version': model_version,
     'model_name': model_name
 }
+# print(versions)
 
 model_versions = pickle.load(open('model/versions.pickle', 'rb'))
+# print(model_versions)
 
 assert model_versions == versions
