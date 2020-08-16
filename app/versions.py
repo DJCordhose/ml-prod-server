@@ -1,6 +1,5 @@
 import pickle
 
-import pandas as pd
 import numpy, sklearn, pandas
 
 model_name = 'pipeline_pca_std_rf'
@@ -13,9 +12,9 @@ versions = {
     'model_version': model_version,
     'model_name': model_name
 }
-# print(versions)
+print(versions)
 
 model_versions = pickle.load(open('model/versions.pickle', 'rb'))
-# print(model_versions)
+print(model_versions)
 
 assert model_versions == versions

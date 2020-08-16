@@ -1,1 +1,1 @@
-docker run -d -p 8888:8888 ml-prod-server
+docker run -d -p 80:80 ml-prod-server
